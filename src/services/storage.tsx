@@ -1,7 +1,7 @@
+import { environment } from "@raycast/api";
 import fs from "fs";
 import path from "path";
-import { environment } from "@raycast/api";
-import { MenuItem } from "./types";
+import { MenuItem } from "../types";
 
 const STORAGE_FILE = path.join(environment.supportPath, "which-key-data.json");
 
